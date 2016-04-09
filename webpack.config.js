@@ -22,8 +22,25 @@ module.exports = {
         loader: 'babel'
       },
       {
+        test: /\.scss$/,
+        loaders: [
+          "style?sourceMap",
+          "css?modules",
+          "resolve-url",
+          "sass?sourceMap",
+        ]
+      },
+      {
         test: /\.css$/,
         loader: 'style!css?modules!postcss'
+      },
+      {
+        test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+        loader: 'url-loader?limit=100000'
+      },
+      {
+        test:/bootstrap-sass[\/\\]assets[\/\\]javascripts[\/\\]/,
+        loader: 'imports?jQuery=jquery'
       }
      ]
    },

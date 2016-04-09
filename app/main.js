@@ -1,7 +1,8 @@
 import React from 'react'
 import {render} from 'react-dom'
-import Greeter from './Greeter'
+import LogIn from './log_in'
 
+import 'bootstrap-loader'
 import './main.css'
 
-render(<Greeter />, document.getElementById('root'));
+render(<LogIn />, document.getElementById('root'));
