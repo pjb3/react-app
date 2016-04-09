@@ -1,4 +1,4 @@
-# Webpack App
+# React App
 
 A React/Redux/Webpack/Babel/Bootstrap/Sass app skeleton
 
