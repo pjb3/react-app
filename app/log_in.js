@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import config from './config.json'
 import styles from './log_in.scss'
 
 export default class LogIn extends Component{

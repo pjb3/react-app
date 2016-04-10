@@ -1,8 +1,8 @@
 import React from 'react'
 import {render} from 'react-dom'
-import LogIn from './log_in'
+import Users from './users'
 
 import 'bootstrap-loader'
 import './main.css'
 
-render(<LogIn />, document.getElementById('root'));
+render(<Users />, document.getElementById('root'));

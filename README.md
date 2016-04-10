@@ -1,6 +1,6 @@
 # React App
 
-A React/Redux/Webpack/Babel/Bootstrap/Sass app skeleton
+A React/Redux/Webpack/Babel/ES2016/Bootstrap/Sass app skeleton
 
 ## Run
 
@@ -12,4 +12,5 @@ Clone this repo and run:
 
 ## Resources
 
+[React/Redux Udemy Course](https://www.udemy.com/react-redux/)
 [http://www.pro-react.com/materials/appendixA/](http://www.pro-react.com/materials/appendixA/)
