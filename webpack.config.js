@@ -51,7 +51,7 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      template: __dirname + "/app/index.tmpl.html"
+      template: __dirname + "/app/index.html"
     }),
     new webpack.HotModuleReplacementPlugin()
   ],
